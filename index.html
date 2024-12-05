@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedez</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="a.css">
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+       box-sizing: border-box;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 0px 5px rgba(0, 0,0, 0.3);
+        height: 70px;
+
+    }
+    #logo{margin-left: 80px;position: relative;top: 20px;}
+    p{font-size: 22px;font-family: "roboto";
+    font-weight: 600;}
+    p span{color: red;}
+    #menu{display: inline;
+    justify-content: center;align-items: center;}
+    #menu ul{
+        display: flex;
+        align-items: center;
+    }
+    #menu ul li{margin-right: 45px;position: relative;top: 30px;font-size: 17px;
+    list-style: none;;}
+    #menu ul  a{
+        text-decoration: none;
+        color: #000;
+    }
+    #button{
+        padding: 5px;
+        background-color: red;
+  
+    position: relative;
+    right: 92px;width: 60px;
+    height: 30px;top: 20px;
+    border-radius: 6px;
+    border: none;
+    }
+    #accueil{display: flex;
+ 
+        ;
+        
+height:100vh
+    }
+     #left{width: 50%;
+  ;position: relative;margin-top: 50px;}
+    #left h1{font-size: 40px;
+        margin-top: 20px; font-family: 'Lora', serif;margin-left: 15px;
+
+    }
+    #left h1 span{color: red;}
+    #left  h4{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 30px;
+        margin-left: 12px;
+        font-size: 14px;
+        color: rgb(72, 70, 70);
+        padding: 10px;
+        text-align: justify;
+
+    }
+    #left button{
+        margin-top: 40px;
+        padding: 10px;
+        border: none;
+        background-color: red;
+        color: white;
+        transition: all 2s;
+    }
+   #right img{
+        width:400px
+     ;height: 200px;
+        border: none;margin-left: 30px;
+        position: relative;left: 100px;
+        top: 80px;
+        zoom: 125%;
+    }
+
+#nouveau{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+;background-color: rgb(11, 11, 11);
+color:white;
+
+
+}
+#nouveauté{
+        height: 65vh;
+     
+        margin-top: 70px;
+    }
+    #nouveauté #cardre{
+        display: flex;
+        justify-content: space-between;
+    }
+    #voiture1 img{width: 400px;
+    height: 300px;}
+    #voiture1 h3{
+        text-align: center;
+
+    }
+    #voiture1 button{
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 168px;
+        margin-top: 10px;
+    }
+    #voiture1 h4{
+        text-align: center;margin-top: 10px;
+    }
+
+
+
+
+
+    #voiture2 img{width: 400px;
+        height: 300px;}
+        #voiture2 button{
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 168px;
+        margin-top: 10px;
+    } #voiture2 h4{
+        text-align: center;margin-top: 10px;
+    }
+    #voiture2 h3{
+        text-align: center;
+
+    }
+
+
+
+        #voiture3 img{width: 400px;
+            height: 300px;}
+            #voiture3 button{
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 168px;
+        margin-top: 10px;
+    }
+    #voiture3 h3{
+        text-align: center;
+
+    }
+ #voiture3 h4{
+    text-align: center;margin-top: 10px;
+    }
+    #mybachmodel{
+        font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 70px;
+border: 3px outset red;
+border-radius: 25px;
+width: 100px;
+left: 640px;
+position: absolute;
+
+    }
+    #mybachmodel:before{ border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:420px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 120px;
+}
+#mybachmodel::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:420px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -435px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+#mybachmodel span{
+color: red;
+}
+
+
+#mybach{
+height: 100vh; 
+display: grid;
+
+grid-template-columns: auto auto auto auto;
+gap: 0px;
+
+margin-top: 200px;
+}
+#mybach div{
+width: 250px;border:none;  
+height: 300px;margin-left: 40px;
+
+}
+#mybach div img{
+width: 250px;
+height: 200px;
+
+;
+}
+#mybach div img:hover{
+transform: scale(1.1);
+margin-top: 10px;
+
+transition: all 1s;
+}
+#mybach div h3{font-size: 16px;
+text-align: center;
+font-family:  Arial, Helvetica, sans-serif;}
+#mybach div h4{
+text-align: center;margin-top: 10px;color: red;
+
+}
+#mybach div button{    padding: 10px;
+        background-color:black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 50px;
+        margin-top: 10px;
+        width: 150px;
+        border-radius: 20px;
+
+}
+#mybach div h4 span{
+color: black;margin-right: 4px;
+}
+#seriesmodel{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 70px;
+border: 3px outset red;
+border-radius: 25px;
+width: 150px;
+left: 640px;
+position: absolute;
+
+}
+#seriesmodel::before{
+border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:420px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 165px;
+}
+#seriesmodel::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:420px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -435px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+
+
+#seriegwagon{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 70px;
+border: 3px outset red;
+border-radius: 25px;
+width: 150px;
+left: 640px;
+position: absolute;
+
+}
+#seriegwagon::before{
+border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:420px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 165px;
+}
+#seriegwagon::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:420px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -435px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+
+
+#serieS{
+
+height: 100vh;margin-top: 150px;
+height: 170vh; 
+display: grid;
+
+grid-template-columns: auto auto auto auto;
+gap: 0px;
+
+margin-top: 200px;
+}  
+#serieS div{
+width: 250px;;  
+height: 300px;
+margin-left: 40px;
+
+} 
+#serieS div img{
+width: 250px;
+height: 200px;
+
+}
+#serieS div img:hover{
+transform: scale(1.1);
+margin-top: 10px;
+
+transition: all 1s;
+}
+#serieS div h3{font-size: 16px;
+text-align: center;
+font-family:  Arial, Helvetica, sans-serif;}
+#serieS div h4{
+text-align: center;margin-top: 10px;color: red;
+
+}
+#serieS div button{    padding: 10px;
+        background-color:rgb(87, 3, 3);
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 50px;
+        margin-top: 10px;
+        width: 150px;
+        border-radius: 20px;
+
+}
+#serieS div h4 span{
+color: black;margin-right: 4px;
+}
+
+
+
+
+#seriesmodel{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 70px;
+border: 3px outset red;
+border-radius: 25px;
+width: 150px;
+left: 640px;
+position: absolute;
+
+}
+#seriesmodel::before{
+border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:420px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 165px;
+}
+#seriesmodel::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:420px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -435px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+
+
+
+
+
+
+
+
+#seriecooper{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 70px;
+border: 3px outset red;
+border-radius: 25px;
+width: 150px;
+left: 640px;
+position: absolute;
+
+}
+#seriecooper::before{
+border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:420px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 165px;
+}
+#seriecooper::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:420px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -435px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;}
+
+
+
+#GWAGON {
+
+height: 100vh;margin-top: 150px;
+height: 100vh;
+display: grid;
+
+grid-template-columns: auto auto auto auto;
+gap: 0px;
+
+margin-top: 200px;
+}  
+#GWAGON  div{
+width: 250px;;  
+height: 300px;
+margin-left: 40px;
+} 
+#GWAGON  div img{
+width: 250px;
+height: 200px;
+
+}
+#GWAGON div img:hover{
+transform: scale(1.1);
+margin-top: 10px;
+
+transition: all 1s;
+}
+#GWAGON div h3{font-size: 16px;
+text-align: center;
+font-family:  Arial, Helvetica, sans-serif;}
+#GWAGON div h4{
+text-align: center;margin-top: 10px;color: red;
+
+}
+#GWAGON  div button{    padding: 10px;
+        background-color:rgb(87, 3, 3);
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 50px;
+        margin-top: 10px;
+        width: 150px;
+        border-radius: 20px;
+
+}
+#GWAGON div h4 span{
+color: black;margin-right: 4px;
+}
+
+
+#cardre div{
+    margin-left: 40px;
+}
+
+#cooper {
+
+height: 100vh;margin-top: 150px;
+height: 100vh;
+display: grid;
+
+grid-template-columns: auto auto auto auto;
+gap: 0px;
+
+margin-top: 200px;
+}  
+#cooper  div{
+width: 250px;;  margin-left: 40px;
+height: 300px;
+
+} 
+#cooper  div img{
+width: 250px;
+height: 200px;
+
+}
+#cooper div img:hover{
+transform: scale(1.1);
+margin-top: 10px;
+
+transition: all 1s;
+}
+#cooper div h3{font-size: 16px;
+text-align: center;
+font-family:  Arial, Helvetica, sans-serif;}
+#GWAGON div h4{
+text-align: center;margin-top: 10px;color: red;
+
+}
+#cooper div button{    padding: 10px;
+        background-color:rgb(87, 3, 3);
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 50px;
+        margin-top: 10px;
+        width: 150px;
+        border-radius: 20px;
+
+}
+#cooper div h4 span{
+color: black;margin-right: 4px;
+
+}
+
+#k{position: relative;bottom: 20px;
+width: 90px;
+height: 50px;
+animation: anime 20s infinite;top: 90px;}
+#ko{position: relative;bottom: 20px;
+width: 90px;
+height: 50px;
+animation: anime 20s infinite;top: 90px;}
+
+@keyframes anime{
+0%{left: 100px;}
+
+100%{left: 280px;}
+}
+#cooper div h4{ text-align: center;}
+
+
+@keyframes animes{
+0%{left: 70px;}
+
+
+100%{left: 230px;}
+}
+
+
+@keyframes animess{
+0%{left: 50px;}
+
+
+100%{left: 120px;}
+}
+#cooper div h4{ text-align: center;}
+
+
+
+
+#service{
+        height: 65vh;
+     
+        margin-top: 20px;
+    }
+    #service  {
+        display: flex;align-items: center;
+        justify-content: center;
+        
+    }
+    #service div{
+       margin-left: 120px;  height: 200px;
+    }
+    #livraison img{width: 50px;position: relative;left: 120px;padding: 5px;
+    height: 50px;}
+
+    #livraison h3{
+        text-align: center;
+
+    }
+    #livraison{ width: 300px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);}
+    #reparation{  width: 300px;; box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    #depanage{  width: 300px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);}
+    #livraison button{
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 130px;
+        margin-top: 10px;padding: 5px;
+    }
+    #livraison p{font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;margin-top: 10px;padding: 10px;
+    }
+
+
+
+
+
+    #depanage img{width: 50px;position: relative;left: 120px;padding: 5px;
+        height: 50px;}
+        #depanage button{
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 130px;bottom: 15px;
+        margin-top: 20px;padding: 5px;
+    }  #depanage p{ font-family: Arial, Helvetica, sans-serif;font-size: 10px;text-align:justify ;
+        ;margin-top: 8px;padding: 10px;
+    }
+    #depanage  h3{
+        text-align: center;
+
+    }
+    #reparation  h3{
+        text-align: center;
+
+    }
+
+
+        #reparation img{width: 50px;position: relative;left: 120px;padding: 5px;
+            height: 50px;}
+            #reparation button{
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 130px;padding: 5px;
+        margin-top: 10px;
+    }
+  
+    #reparation p{ font-family: Arial, Helvetica, sans-serif;font-size: 10px;
+    text-align: center;margin-top: 10px;padding: 10px;
+    }
+
+
+
+        
+#nouveaux{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+
+}
+#nouveaux::before{
+content: ""; border-radius: 0px 25px 0px 25px;
+background-color: red;
+width:200px;
+height: 6px;
+position: absolute;
+top: 5430px;
+left: 600px;
+}
+#nouveaux::after{
+content: ""; border-radius: 0px 25px 0px 25px;
+background-color: rgb(29, 25, 25);
+width:200px;
+height: 6px;
+position: absolute;
+top: 5456px;
+left: 560px;
+margin-top: 6px;
+
+}
+#localisation{
+    display: flex;
+    justify-content: space-between;
+
+}
+#localisation form{padding: 40px;width: 400px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  ;margin-right: 100px
+}
+#localisation form input{padding: 5px;
+    margin-top: 30px;
+}
+#localisation form textarea{
+    margin-top: 25px;
+}
+#localisation form #submit{
+    background-color: red;border: none;
+}
+#localisation div{position: relative;left: 200px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+#localisation div iframe{
+    position: relative;;
+    top: 60px;
+}
+#localisation div h1{
+    text-align: center;height: 5px;
+    position: relative
+    ;top: 5px;
+}
+footer
+{
+    background-color: black;
+    color: aliceblue;height: 40px;margin-top: 30px;
+    text-align: center;font-size: 19px;
+}
+
+  
+@media  (max-width:1024px)and (min-width:762px){
+    #menu{}
+    
+    nav{width: 100%;}
+#button{position: relative;
+left: -30px;}
+#accueil{padding:  0 50px ;
+    display: block;
+   
+    flex-direction: column;
+
+}
+#left{
+    width: 100%;
+}
+#right img{
+    width: 80%;
+    ;position: relative;
+    left: 5px;
+}
+#se{
+    margin-top: 400px;
+}
+  
+    .slider{
+        display: flex;
+        ;
+        scroll-snap-type: x mandatory;
+        gap: 20px;
+
+    }
+    .slide{
+        scroll-snap-align: center;
+        flex: 0 0 100%0
+        ;
+        text-align: center;
+    }
+    .slide img{
+        max-width: 200px;
+        height: 20px
+    }
+    #cardre  button{
+       display: none;
+    }
+    #cardre h4{display: none;}
+
+
+
+    #mybachmodel{
+        font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 70px;
+border: 3px outset red;
+border-radius: 25px;
+width: 100px;
+left:390px;
+position: absolute;
+
+    }
+    #mybachmodel:before{ border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:260px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 120px;
+}
+#mybachmodel::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:260px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -300px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+#mybachmodel span{
+color: red;
+}
+
+
+#mybach{
+height: 100vh; 
+display: grid;
+width: 100%;
+
+grid-template-columns: auto auto auto;
+gap: 0px;
+
+margin-top: 200px;
+}
+#mybach div {
+
+    margin-right: 10px;
+    position: relative;
+    right: 15px;
+    margin-top: 20px;
+}
+
+#mybach div img{
+width: 250px;
+height: 200px;
+
+;}
+
+#ko{
+position: relative;top: 615px;
+}
+
+
+#seriesmodel{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 630px;
+border: 3px outset red;
+border-radius: 25px;
+width: 150px;
+left:380px;
+position: absolute;
+
+}
+#seriesmodel::before{
+border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:260px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 165px;
+}
+#seriesmodel::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:260px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -300px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+
+#serieS{position: relative;
+    top: 400px;
+height: 100vh; 
+display: grid;
+width: 100%;
+
+grid-template-columns: auto auto auto;
+gap: 0px;
+
+margin-top: 420px;
+}
+#serieS div {
+
+    margin-right: 10px;
+    position: relative;
+    right: 15px;
+    margin-top: 20px;
+}
+
+#serieS div img{
+width: 250px;
+height: 200px;
+
+
+
+
+
+}
+
+
+
+#seriegwagon{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 1200px;
+border: 3px outset red;
+border-radius: 25px;
+width: 150px;
+left: 380px;
+position: absolute;
+
+}
+#seriegwagon::before{
+border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:260px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 165px;
+}
+#seriegwagon::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:260px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -300px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+
+
+#GWAGON{position: relative;
+    top: 1000px;
+height: 100vh; 
+display: grid;
+width: 100%;
+
+grid-template-columns: auto auto auto  ;
+gap: 0px;
+
+margin-top: 400px;
+}
+#GWAGON div {
+
+    margin-right: 10px;
+    position: relative;
+    right: 15px;
+    margin-top: 20px;
+}
+
+#GWAGONdiv img{
+width: 250px;
+height: 200px;
+
+
+
+
+
+}
+
+
+#seriecooper{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 1200px;
+border: 3px outset red;
+border-radius: 25px;
+width: 150px;
+left: 380px;
+position: absolute;
+
+}
+#seriecooper::before{
+border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:260px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 165px;
+}
+#seriecooper::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:260px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -300px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+
+
+#cooper {position: relative;
+    top: 1200px;
+height: 100vh; 
+display: grid;
+width: 100%;
+
+grid-template-columns: auto auto auto ;
+gap: 0px;
+
+margin-top: 200px;
+}
+#cooper  div {
+
+    margin-right: 10px;
+    position: relative;
+    right: 15px;
+    margin-top: 20px;
+}
+
+#cooper div img{
+width: 250px;
+height: 200px;
+
+
+
+
+
+}
+#service{
+width: 100%;
+display: flex;
+margin-top: 1800px;
+}
+#service div{
+    width: 600px
+    ;margin-top: 30px;
+    position: relative;right: 40px;;
+}
+#service div img{
+    position: relative;left: 60px;
+}
+
+#service div button{
+    position: relative;
+    left: 50px;
+}
+#localisation{margin-top: 200px;
+}#localisation div{  width: 400px;position: relative;left:20px ;
+    height: 200px;
+    
+}
+#localisation  iframe {
+ width: 100%;
+ height: 100%;
+}
+#localisation form{
+    width: 300px;position: relative;left:80px ;
+}
+#localisation form input{width: 200px;}
+
+#sections{
+    position: relative;
+    top: 1670px;
+}
+
+footer{
+    margin-top:200px;
+}
+.koo{position: relative;bottom: 20px;
+width: 90px;
+height: 50px;
+animation: animes 20s infinite !important;top: 646px!important
+}
+
+.kooo{
+
+    position: relative;bottom: 20px;
+width: 90px;
+height: 50px;
+animation: animes 20s infinite !important;top: 1218px!important
+}
+.koooo{
+    
+    position: relative;bottom: 20px;
+width: 90px;
+height: 50px;
+animation: animes 20s infinite !important;top: 1218px!important
+}
+}
+
+
+@media   screen and (max-width:682px){
+    #menu{display: none;}
+    
+    nav{width: 100%;}
+#button{position: relative;
+left: -30px;}
+#accueil{padding:  0 50px ;
+    display: block;
+   
+    flex-direction: column;
+
+}
+#left{
+    width: 100%;
+}
+#right img{
+    width: 100%;
+    ;position: relative;
+    left: 5px;
+}
+#se{
+    margin-top: 400px;
+}
+  
+    .slider{
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        gap: 20px;
+
+    }
+    .slide{
+        scroll-snap-align: center;
+        flex: 0 0 100%0
+        ;
+        text-align: center;
+    }
+    .slide img{
+        max-width: 200px;
+        height: 20px
+    }
+    #cardre  button{
+       display: none;
+    }
+    #cardre h4{display: none;}
+
+
+
+    #mybachmodel{
+        font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 70px;
+border: 3px outset red;
+border-radius: 25px;
+width: 100px;
+left:240px;
+position: absolute;
+
+    }
+    #mybachmodel:before{ border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:180px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 120px;
+}
+#mybachmodel::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:180px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -212px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+#mybachmodel span{
+color: red;
+}
+
+
+#mybach{
+height: 100vh; 
+display: grid;
+width: 100%;
+
+grid-template-columns: auto auto ;
+gap: 0px;
+
+margin-top: 200px;
+}
+#mybach div {
+
+    margin-right: 10px;
+    position: relative;
+    right: 15px;
+    margin-top: 20px;
+}
+
+#mybach div img{
+width: 250px;
+height: 200px;
+
+;}
+
+#ko{
+position: relative;top: 615px;
+}
+
+
+#seriesmodel{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 750px;
+border: 3px outset red;
+border-radius: 25px;
+width: 150px;
+left:220px;
+position: absolute;
+
+}
+#seriesmodel::before{
+border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:160px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 165px;
+}
+#seriesmodel::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:160px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -188px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+
+#serieS{position: relative;
+    top: 400px;
+height: 100vh; 
+display: grid;
+width: 100%;
+
+grid-template-columns: auto auto ;
+gap: 0px;
+
+margin-top: 420px;
+}
+#serieS div {
+
+    margin-right: 10px;
+    position: relative;
+    right: 15px;
+    margin-top: 20px;
+}
+
+#serieS div img{
+width: 250px;
+height: 200px;
+
+
+
+
+
+}
+
+
+
+#seriegwagon{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 1500px;
+border: 3px outset red;
+border-radius: 25px;
+width: 150px;
+left: 230px;
+position: absolute;
+
+}
+#seriegwagon::before{
+border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:150px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 165px;
+}
+#seriegwagon::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:150px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -185px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+
+
+#GWAGON{position: relative;
+    top: 1000px;
+height: 100vh; 
+display: grid;
+width: 100%;
+
+grid-template-columns: auto auto  ;
+gap: 0px;
+
+margin-top: 600px;
+}
+#GWAGON div {
+
+    margin-right: 10px;
+    position: relative;
+    right: 15px;
+    margin-top: 20px;
+}
+
+#GWAGONdiv img{
+width: 250px;
+height: 200px;
+
+
+
+
+
+}
+
+
+#seriecooper{
+font-size: 22px;
+text-align: center;
+font-family: "roboto";
+font-weight: 600;
+margin-top: 1500px;
+border: 3px outset red;
+border-radius: 25px;
+width: 150px;
+left: 230px;
+position: absolute;
+
+}
+#seriecooper::before{
+border-radius: 0px 25px 0px 25px;
+content: "";
+background-color: red;
+width:150px;
+height: 6px;
+position: absolute;
+top:9px;
+left: 165px;
+}
+#seriecooper::after{
+content: "";
+background-color: rgb(29, 25, 25);
+width:150px;
+height: 7px;
+position: absolute;
+top: 5px;
+left: -185px;
+margin-top: 6px;
+border-radius: 0px 25px 0px 25px;
+
+}
+
+
+#cooper {position: relative;
+    top: 1200px;
+height: 100vh; 
+display: grid;
+width: 100%;
+
+grid-template-columns: auto auto  ;
+gap: 0px;
+
+margin-top: 400px;
+}
+#cooper  div {
+
+    margin-right: 10px;
+    position: relative;
+    right: 15px;
+    margin-top: 20px;
+}
+
+#cooper div img{
+width: 250px;
+height: 200px;
+
+
+
+
+
+}
+#service{
+width: 100%;
+display: block;
+margin-top: 1800px;
+}
+#service div{
+    width: 400px
+    ;margin-top: 30px;
+}
+#service div img{
+    position: relative;left: 170px;
+}
+
+#service div button{
+    position: relative;
+    left: 175px;
+}
+#localisation{margin-top: 400px;
+}#localisation div{  width: 400px;position: relative;left:20px ;
+    height: 200px;
+    
+}
+#localisation  iframe {
+ width: 100%;
+ height: 100%;
+}
+#localisation form{
+    width: 300px;position: relative;left:80px ;
+}
+#localisation form input{width: 200px;}
+
+#sections{
+    position: relative;
+    top: 1670px;
+}
+
+footer{
+    margin-top:200px;
+}
+.koo{position: relative;bottom: 20px;
+width: 90px;
+height: 50px;
+animation: animess 20s infinite !important;top: 770px!important
+}
+
+.kooo{
+
+    position: relative;bottom: 20px;
+width: 90px;
+height: 50px;
+animation: animess 20s infinite !important;top: 1520px!important
+}
+.koooo{
+    
+    position: relative;bottom: 20px;
+width: 90px;
+height: 50px;
+animation: animess 20s infinite !important;top: 1518px!important
+}
+}
+
+
+
+
+
+</style>
+<body>
+   
+   
+    <nav>
+        <div id="logo">
+            <p>Mercedez-Benz <span>Car</span></p>
+        </div>
+        <div id="menu">
+            <ul>
+                <a href=""> <li>Accueil</li></a>
+                <a href="#nouveau"> <li>Vehicules</li></a>
+                <a href="#service"> <li>Services </li></a>
+                <a href=""> <li>Contacts</li></a>
+            </ul>
+          
+        </div>
+        <button id="button">Login</button>
+    </nav>
+
+    <section      id="accueil">
+        <div id="left">
+            
+                <h1>Bienvenue chez Mercedes- <span>Benz</span></h1>
+               
+                <h4>Depuis sa fondation en 1926, Mercedes-Benz incarne l'excellence automobile à travers ses véhicules alliant performance, luxe et sécurité.Chaque modèle, qu'il soit sportif, familial ou électrique, est conçu pour offrir une expérience de conduite incomparable. La marque a su se réinventer au fil des décennies en intégrant des technologies de pointe, tout en respectant ses valeurs fondamentales d'innovation et de qualité. Chez Mercedes, nous ne fabriquons pas simplement des voitures, mais des chefs-d'œuvre de technologie, de confort et de design qui enrichissent la vie de nos clients au quotidien. </p>
+                    <button>Voir plus</button>
+</div>
+    
+    <div id="right">
+        <img src="2024112717483853.png">
+    </div>
+    
+    </section>
+    <section style="border:  solid 2px; height: 10px;" id="se">
+        
+        <div id="nouveau">
+            Nouve<span style="color: red;">auté</span> 
+        </div>
+       
+    </section>
+    <!---->
+    
+<section id="nouveauté">
+    <div id="cardre" class="slider">
+ <div id="voiture1"  class="slide">
+    <img src="ifu/fadilo (1).jpg" alt="">
+    <h3>Mercedes-Maybach serie A</h3>
+    <h4>30000$</h4>
+    <button>Acheter</button>
+ </div>
+ <div id="voiture2"  class="slide">
+    <img src="ifu/mer.jpg" alt="">
+    <h3>Mercedes-Maybach serie C</h3>
+    <h4>30000$</h4>
+    <button>Acheter</button>
+ </div>
+ <div id="voiture3"  class="slide">
+    <img src="ifu/fadilo (2).jpg" alt="">
+    
+    <h3>Mercedes-Maybach serie S</h3><h4>30000$</h4>
+    <button>Acheter</button>
+ </div>
+</div>
+</section>
+  <!-- section concernant les modeles mybach ----------------------------------------------------------------------------------------->
+   <img id="k" src="2024112717483853.png" alt="">
+<div id="mybachmodel">
+   <span> My </span>bach 
+</div>
+<section id="mybach">
+    <div id="mybach1">
+        <img src="Nouveau dossier/mybach/CLS 400d --AMG Packet NightPaket  Viti Prodhimit.jpg" alt="">
+        <h3> CLS 400d --AMG</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+
+    </div>
+    <div id="mybach2">
+        <img src="Nouveau dossier/mybach/Mercedes-Maybach S 680Model- 2025GCC.jpg" alt="">
+        <h3>Mercedes-Maybach S 680Model</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybac3">
+        <img src="Nouveau dossier/mybach/Mercedes-Maybach s 856.jpg" alt="">
+        <h3>Mercedes-Maybach s 856</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybach4">
+        <img src="Nouveau dossier/mybach/Mercedez -Mybach s 822.jpg" alt="">
+        <h3>Mercedez benz</h3>
+        
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybach5">
+        <img src="Nouveau dossier/mybach/Mercedez benz.jpg" alt="">
+        <h3>Mercedez -Mybach S 822</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybach5">
+        <img src="Nouveau dossier/mybach/Mercedez-Mybach (2).jpg" alt="">
+        <h3>Mercedez-Mybach</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybach6">
+        <img src="Nouveau dossier/mybach/Mercedez-Mybach s 450.jpg" alt="">
+        <h3>Mercedez-Mybach S 450</h3>
+        <h4>  <span>125000</span>$</h4>
+       <button>Acheter</button>
+    </div>
+    <div id="mybach7">
+        <img src="Nouveau dossier/mybach/Mercedez-Mybach.jpg" alt="">
+        <h3>Mercedez-Mybach</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+  
+</section>
+  <!-- section concernant les modeles series s ----------------------------------------------------------------------------------------->
+  <img id="k" src="2024112920283871.png"   class="koo" alt="">
+  <div id="seriesmodel">
+   Modèle  <span>Serie S</span>
+ </div>
+
+<section id="serieS">
+    <div id="mybach1">
+        <img src="Nouveau dossier/mybach/CLS 400d --AMG Packet NightPaket  Viti Prodhimit.jpg" alt="">
+        <h3> CLS 400d --AMG</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+
+    </div>
+    <div id="mybach2">
+        <img src="Nouveau dossier/s/Mercedes Benz S 580 Model.jpg" alt="">
+        <h3>Mercedes-Maybach S 680Model</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybac3">
+        <img src="Nouveau dossier/s/Mercedes Benz S-Class Full.jpg" alt="">
+        <h3>Mercedes-Maybach s 856</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybach4">
+        <img src="Nouveau dossier/s/MERCEDES BENZ S400.jpg" alt="">
+        <h3>Mercedez benz</h3>
+        
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybach5">
+        <img src="Nouveau dossier/s/Mercedes Benz S500L.jpg" alt="">
+        <h3>Mercedez -Mybach S 822</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybach5">
+        <img src="Nouveau dossier/s/Mercedez Benz S 596 Model.jpg" alt="">
+        <h3>Mercedez-Mybach</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybach6">
+        <img src="Nouveau dossier/s/Mercedez Benz S model 2018.jpg" alt="">
+        <h3>Mercedez-Mybach S 450</h3>
+        <h4>  <span>125000</span>$</h4>
+       <button>Acheter</button>
+    </div>
+    <div id="mybach7">
+        <img src="Nouveau dossier/s/Mercedez Benz S model 2022.jpg" alt="">
+        <h3>Mercedez-Mybach</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybach7">
+        <img src="Nouveau dossier/s/S Class 550 Lungo Viti 2015 Look.jpg" alt="">
+        <h3>Mercedez-Mybach</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+
+    <div id="mybach7">
+        <img src="Nouveau dossier/s/S350d EDITION 1 mega full viti 2014(look 2018).jpg" alt="">
+        <h3>Mercedez-Mybach</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+
+</section>
+
+  <!-- section concernant les modeles GWAGON ----------------------------------------------------------------------------------------->
+  <img id="k" src="2024112919585782.png"    class="kooo" alt="">
+<div id="seriegwagon">
+    G-wagon
+  </div>
+
+ <section id="GWAGON">
+     <div id="mybach1">
+         <img src="Nouveau dossier/suv/suv (1).jpg" alt="">
+         <h3> CLS 400d --AMG</h3>
+         <h4>  <span>125000</span>$</h4>
+         <button>Acheter</button>
+
+     </div>
+     <div id="mybach2">
+         <img src="Nouveau dossier/suv/suv (2).jpg" alt="">
+         <h3>Mercedes-Maybach S 680Model</h3>
+         <h4>  <span>125000</span>$</h4>
+         <button>Acheter</button>
+     </div>
+     <div id="mybac3">
+         <img src="Nouveau dossier/suv/suv (3).jpg" alt="">
+         <h3>Mercedes-Maybach s 856</h3>
+         <h4>  <span>125000</span>$</h4>
+         <button>Acheter</button>
+     </div>
+     <div id="mybach4">
+         <img src="Nouveau dossier/suv/suv (4).jpg" alt="">
+         <h3>Mercedez benz</h3>
+         
+         <h4>  <span>125000</span>$</h4>
+         <button>Acheter</button>
+     </div>
+     <div id="mybach5">
+         <img src="Nouveau dossier/suv/suv.jpg" alt="">
+         <h3>Mercedez-Mybach</h3>
+         <h4>  <span>125000</span>$</h4>
+         <button>Acheter</button>
+     </div>
+   
+
+ </section>
+  <!-- section concernant les modeles cooper ----------------------------------------------------------------------------------------->
+  <img id="k" src="2024112717483853.png"  class="koooo" alt="">
+  <div id="seriecooper">
+   
+    Modèle  <span>Cooper</span>
+  
+ </div>
+
+<section id="cooper">
+    <div id="mybach1">
+        <img src="Nouveau dossier/cooper  class/Mercedez Benz cooper 2023 (1).jpg" alt="">
+        <h3> CLS 400d --AMG</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+
+    </div>
+    <div id="mybach2">
+        <img src="Nouveau dossier/cooper  class/Mercedez Benz cooper 2023 (2).jpg" alt="">
+        <h3>Mercedes-Maybach S 680Model</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybac3">
+        <img src="Nouveau dossier/cooper  class/Mercedez Benz cooper 2023 (3).jpg" alt="">
+        <h3>Mercedes-Maybach s 856</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybach4">
+        <img src="Nouveau dossier/cooper  class/Mercedez Benz cooper 2023 (4).jpg" alt="">
+        <h3>Mercedez benz</h3>
+        
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+    <div id="mybach5">
+        <img src="Nouveau dossier/cooper  class/Mercedez Benz cooper 2023 (5).jpg" alt="">
+        <h3>Mercedez-Mybach</h3>
+        <h4>  <span>125000</span>$</h4>
+        <button>Acheter</button>
+    </div>
+  
+
+</section>
+
+
+<section style="border:  solid 2px;" id="sections">
+    <div id="before"></div>
+    <div id="nouveau">
+    <span style="color: red;">Nos</span>  services
+    </div>
+    <div id="after"></div>
+
+</section>
+<section id="service">
+    
+    <div id="livraison">
+       <img src="voiture-de-livraison.png" alt="">
+       <h3>livraison</h3>
+     <p>Profitez de notre service de livraison rapide et sécurisée pour recevoir votre véhicule directement à votre porte.</p>
+       <button>Voir plus</button>
+    </div>
+    <div id="depanage">
+       <img src="assistance-depannage.png" alt="">
+       <h3>Dépanage</h3>
+     <p>Besoin d'aide en urgence ? Notre service de dépannage est disponible 24/7 pour vous assister rapidement, où que vous soyez.</p>
+       <button>Voir plus</button>
+    </div>
+    <div id="reparation">
+       <img src="outils-de-reparation.png" alt="">
+       
+       <h3>Réparage</h3>
+       <p>Utilisez notre service de repérage pour trouver rapidement la voiture qui correspond à vos besoins.</p>
+       <button>Voir plus</button>
+    </div>
+   
+   </section>
+
+   <section id="localisation">
+    <div>
+     <h1>localisation</h1>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126885.3753363713!2d2.3961783!3d6.3723026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102354e509f894f7%3A0xc8fde921f89849f6!2sCotonou!5e0!3m2!1sfr!2sbj!4v1733164535906!5m2!1sfr!2sbj" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+     <form action="">
+         <h1 style="text-align: center;">Envoyer</h1>
+         <input type="text" placeholder="Noms">
+         <input type="email" placeholder="Email">
+         <input type="text" placeholder="Object">
+         <textarea name="" id="" placeholder="Message" rows="10" cols="30"></textarea>
+         <input type="submit"  id="submit">
+     </form>
+ </section>
+ <footer>
+  Mercedez.com 
+ </footer>
+</body>
+</html>
+
+   
+    
